@@ -1,0 +1,19 @@
+{
+  "name": "genremicroservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon genre-microservice-controller.mjs"
+  },
+  "author": "Alden Chico",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "next": "^13.3.2",
+    "nodemon": "^2.0.22",
+    "openai": "^3.2.1"
+  }
+}
