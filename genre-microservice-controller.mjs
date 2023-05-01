@@ -10,10 +10,10 @@ app.use(express.json());
 
 // RETRIEVE controller ****************************************************
 
-    // GET /jobtitlecheck
-    // Request: Job title path parameter, Request body is a JSON object with the job title
-    // Response: Success - Request is valid and returns true or false
-        // Body: JSON object containing true or false
+    // GET /genre
+    // Request: Genre path parameter, Request body is a JSON object with song recommendations by genre
+    // Response: Success - Request returns a list of song recommendations using the genre in the query
+        // Body: JSON object containing song recommendations
         // Status Code: 201
     // Response: Failure - Request is invalid
         // Body: JSON object Error

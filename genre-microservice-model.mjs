@@ -12,7 +12,7 @@ const openai = new OpenAIApi(configuration);
 
 // RETRIEVE model *****************************************
 
-// Retrieve the educational requirements for a given job title.
+// Retrieve song recommendations for a given genre.
 const getRecommendationsByGenre = async (_genre) => {
     const prompt = `Give me 3 song recommendations (with their artists) in the ${_genre} music genre.`;
     let result;
@@ -28,5 +28,5 @@ const getRecommendationsByGenre = async (_genre) => {
     return {"result": result};
 }
 
-// Exports for jobdescribe-controller
+// Exports for genre-microservice-controller
 export {getRecommendationsByGenre};
