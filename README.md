@@ -4,6 +4,7 @@
  To make HTTP requests to Genre Microservice, follow these steps:
  <ol>
  <li>Download the project code from GitHub.</li>
+<li>Copy .env.example from the backend directory and save the copy in the backend directory as filename <b>.env</b>. Enter your OpenAI API Key in the .env file <i>(Sign up for an OpenAI account and create an OpenAI key <a href="https://platform.openai.com/overview" target="_blank">here</a>).</i></li>
  <li>Open a terminal window and navigate to the project directory.</li>
  <li>Run <b>npm init</b> on the terminal window to download the node_modules folder that contains the project dependencies.</li>
  <li>Run <b>npm start</b> on the terminal window to start the Genre Microservice on <b>localhost:3002</b>.</li>
@@ -13,4 +14,4 @@
 After running my project on localhost:3002, any project can use the <b>localhost:3002/genre/_genre</b> endpoint to fetch responses that are formatted as JSON objects containing 3 song recommendations for any music genre as a string.
 </br></br>
 <h2> UML Diagram </h2>
-<img src="https://user-images.githubusercontent.com/50260762/236374735-c6c7d88a-9a1c-4805-823a-3108ac9ba0dc.png"/>
+<img src="https://user-images.githubusercontent.com/50260762/236375853-49c12c43-30d6-432e-bdcd-a21d32a38e48.png"/>
