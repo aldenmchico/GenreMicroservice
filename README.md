@@ -4,7 +4,7 @@
  To make HTTP requests to Genre Microservice, follow these steps:
  <ol>
  <li>Download the project code from GitHub.</li>
-<li>Copy .env.example from the backend directory and save the copy in the backend directory as filename <b>.env</b>. Enter your OpenAI API Key in the .env file <i>(Sign up for an OpenAI account and create an OpenAI key <a href="https://platform.openai.com/overview" target="_blank">here</a>).</i></li>
+<li>Copy .env.example from the directory and save the copy in the same directory as filename <b>.env</b>. Enter your OpenAI API Key in the .env file <i>(Sign up for an OpenAI account and create an OpenAI key <a href="https://platform.openai.com/overview" target="_blank">here</a>).</i></li>
  <li>Open a terminal window and navigate to the project directory.</li>
  <li>Run <b>npm init</b> on the terminal window to download the node_modules folder that contains the project dependencies.</li>
  <li>Run <b>npm start</b> on the terminal window to start the Genre Microservice on <b>localhost:3002</b>.</li>
