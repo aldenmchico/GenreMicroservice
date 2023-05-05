@@ -11,3 +11,6 @@
  </ol>
  </br>
 After running my project on localhost:3002, any project can use the <b>localhost:3002/genre/_genre</b> endpoint to fetch responses that are formatted as JSON objects containing 3 song recommendations for any music genre as a string.
+</br></br>
+<h2> UML Diagram </h2>
+<img src="https://user-images.githubusercontent.com/50260762/236374735-c6c7d88a-9a1c-4805-823a-3108ac9ba0dc.png"/>
